@@ -3,52 +3,51 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '',
+    backgroundColor: '#0f0f0f',
     alignItems: 'center',
     justifyContent: 'center',
   },
    inputValue: {
     fontSize: 14,
     width: '60%',
-    color: 'purple',
+    color: '#aaaaaa',
     marginBottom: 20
   },
   text: {
-    color: "purple",
+    color: "#FFFF",
     fontSize: 25,
-    paddingTop: 25,
-    paddingBottom: 35,
+    paddingTop: "20%",
+    paddingBottom: "10%",
     fontWeight: 'bold'
 
   },
   input: {
-    width: '60%',
-    margin: 10,
+    color: "white",
+    fontSize: 15,
+    width: "60%",
+    padding: 9,
+    backgroundColor: "#200069",
     borderRadius: 5,
-    backgroundColor: "#dedede",
-    padding: 10,
-    color: "#363636",
-    fontWeight: "200"
+    marginBottom: 2
   },
   btn: {
-    backgroundColor: "purple",
-    padding: 15,
+    color:"white",
+    marginTop: 10,
+    padding: 15,    
+    textAlign: "center",
     borderRadius: 5,
-    fontSize: 13,
-    margin: 10,
-    marginBottom: 20,
+    backgroundColor: "#4815be",
 
   },
   btnTxt: {
     fontFamily: "Arial",
     color: "white",
-    fontWeight: "600",
   },
   textInput: {
     fontSize: 16,
     width: '60%',
-    fontWeight: '500',
-    marginTop: 20,
+    marginBottom: 5,
+    color: "#dfdfdf"
   },
 })
 

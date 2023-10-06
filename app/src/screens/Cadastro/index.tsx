@@ -29,7 +29,7 @@ export function Cadastro() {
   function cadastrar() {
     console.log('Valores do formulário:');
     console.log(formValues);
-    navigation.navigate('home')
+    navigation.navigate('list')
   }
 
   // useEffect(() => {

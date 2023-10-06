@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
+import { List } from '../../screens/List';
 import { Home } from '../../screens/Home';
 import { Cadastro } from '../../screens/Cadastro';
 
@@ -19,6 +20,13 @@ export function StackRoutes(){
       <Screen
       name='home'
       component={Home}
+      options={{
+        headerShown: false,
+      }}
+      />
+       <Screen
+      name='list'
+      component={List}
       options={{
         headerShown: false,
       }}
